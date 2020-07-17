@@ -1,0 +1,21 @@
+{
+    "name": "test/php-password_refactoring-kata",
+    "require": {
+        "symfony/framework-bundle": "^5.1",
+        "symfony/yaml": "^5.1"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.1",
+        "symfony/browser-kit": "^5.1",
+        "symfony/css-selector": "^5.1",
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tests\\" : [
+                "apps/web/backend/tests"
+            ],
+            "GanianesCorp\\Apps\\Web\\Backend\\": "apps/web/backend/src"
+        }
+    }
+}

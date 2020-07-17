@@ -1,8 +1,8 @@
 <?php
-$host     = "localhost";
+$host     = "127.0.0.1";
 $db_name  = "coan_secure";
 $username = "root";
-$password = "";
+$password = "root";
 
 try {
     $con = new PDO("mysql:host={$host};dbname={$db_name}", $username, $password);

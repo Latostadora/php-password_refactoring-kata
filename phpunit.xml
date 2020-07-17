@@ -1,0 +1,6 @@
+<phpunit>
+    <php>
+        <server name="KERNEL_CLASS" value="GanianesCorp\Apps\Web\Backend\Kernel"/>
+    </php>
+
+</phpunit>
